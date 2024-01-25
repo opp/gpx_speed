@@ -48,8 +48,6 @@ def acMain(ac_version):
     ac.setBackgroundOpacity(pos, 1)
     ac.drawBackground(pos, 1)
     ac.drawBorder(pos, 0)
-   
-    #ac.initFont(0, "Retro Gaming", 0, 0)
     
     l_speed = ac.addLabel(pos, "0 {}".format(show_text))
     ac.setPosition(l_speed, 50, -1)
@@ -57,6 +55,7 @@ def acMain(ac_version):
     ac.setCustomFont(l_speed, "Retro Gaming", 0, 0)
     ac.setFontSize(l_speed, 18)
     ac.setFontAlignment(l_speed, "center")
+    ac.setFontColor(l_speed, 1, 1, 1, 0.3)
     
     #return "GPX Speed"
     
